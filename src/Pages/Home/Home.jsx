@@ -7,6 +7,7 @@ import Unique from "./Unique/Unique";
 import Health from "./Health/Health";
 import Analysis from "./Analysis/Analysis";
 import Intelligence from "./Intelligence/Intelligence";
+import Team from "./Team/Team";
 function Home() {
   return (
     <div className="home">
@@ -17,6 +18,7 @@ function Home() {
       <Health />
       <Analysis />
       <Intelligence />
+      <Team />
     </div>
   );
 }

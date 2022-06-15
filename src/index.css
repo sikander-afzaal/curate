@@ -24,3 +24,7 @@
   text-fill-color: transparent;
   background-blend-mode: multiply;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}

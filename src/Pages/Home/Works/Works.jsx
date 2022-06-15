@@ -5,7 +5,7 @@ import work2 from "../../../Assets/works/work2.png";
 import work3 from "../../../Assets/works/work3.svg";
 function Works() {
   return (
-    <div className="works">
+    <div id="works" className="works">
       <h1 className="roboto title">
         How It <span className="gradient-text">Works</span>
       </h1>
