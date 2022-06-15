@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 3px 6px rgba(140, 152, 164, 0.25);
+  padding-inline: 30px;
+  position: fixed;
+  background-color: white;
+  z-index: 3;
+}
+.logo {
+  max-width: 100%;
+  object-fit: contain;
+}
+.right-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-link {
+  color: #2d3748;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.download-btn {
+  background: linear-gradient(75.11deg, #00acf2 9.75%, #b0d866 90.82%);
+  background-blend-mode: multiply;
+  border-radius: 9px;
+  width: 150px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mobile {
+  display: none;
+  font-size: 1rem;
+}
+.overlay {
+  display: none;
+}
+@media screen and (max-width: 582px) {
+  .mobile {
+    display: block;
+    color: black;
+    position: relative;
+    z-index: 5;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .right-header {
+    position: fixed;
+    height: 100vh;
+    width: 375px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    top: 0;
+    right: -600px;
+    z-index: 4;
+    border-left: 2px solid rgba(140, 152, 164, 0.25);
+    padding-left: 30px;
+    gap: 30px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+  }
+  .header-open {
+    right: 0;
+    opacity: 1;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  .overlay {
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    right: 0;
+    display: block;
+  }
+  .open-overlay {
+    pointer-events: all;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 390px) {
+  .right-header {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+}
