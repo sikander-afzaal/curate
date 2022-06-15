@@ -5,6 +5,8 @@ import BrandsBar from "../../Components/BrandsBar/BrandsBar";
 import Works from "./Works/Works";
 import Unique from "./Unique/Unique";
 import Health from "./Health/Health";
+import Analysis from "./Analysis/Analysis";
+import Intelligence from "./Intelligence/Intelligence";
 function Home() {
   return (
     <div className="home">
@@ -13,6 +15,8 @@ function Home() {
       <Works />
       <Unique />
       <Health />
+      <Analysis />
+      <Intelligence />
     </div>
   );
 }

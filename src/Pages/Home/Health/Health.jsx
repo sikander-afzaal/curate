@@ -21,13 +21,14 @@ function Health() {
           </p>
           <ul className="list">
             <li className="roboto">Non-GMO</li>
-            <li className="roboto">BRC Certified</li>
-            <li className="roboto">GMP Approved</li>
-            <li className="roboto">UK Made</li>
             <li className="roboto">
               Free from artificial colours and sweeteners
             </li>
+            <li className="roboto">BRC Certified</li>
             <li className="roboto">Tailor-made for you and your body</li>
+            <li className="roboto">GMP Approved</li>
+
+            <li className="roboto">UK Made</li>
           </ul>
         </div>
         <div className="right-health">

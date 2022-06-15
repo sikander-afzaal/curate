@@ -1,0 +1,47 @@
+.inteli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 15rem;
+  gap: 20px;
+}
+.inteli .title {
+  text-align: center !important;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 20px;
+}
+.inteli h2 {
+  text-align: center;
+  font-size: 2rem;
+  max-width: 1000px;
+}
+.inteli p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1f1f39fc;
+  max-width: 1000px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .inteli .title {
+    text-align: left !important;
+    border-bottom: none;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+  .inteli h2 {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .inteli p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .inteli br {
+    display: none;
+  }
+}
