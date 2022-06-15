@@ -1,0 +1,135 @@
+.unique {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 5rem;
+  padding-inline: 20px;
+  gap: 20px;
+}
+.unique h2 {
+  font-size: 19px;
+  letter-spacing: 0.23em;
+  color: rgba(31, 31, 57, 0.5);
+}
+.unique .sub-title {
+  max-width: 900px;
+  line-height: 1.5;
+}
+.center-uni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.right-uni {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-uni h3 {
+  color: #1f1f39;
+  font-size: 3rem;
+}
+.right-uni h4 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+.right-uni p {
+  font-size: 1.1rem;
+  max-width: 500px;
+  color: var(--text-color);
+}
+.row-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 40px;
+  margin-top: 1.2rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+  column-gap: 30px;
+}
+.row img {
+  justify-self: center;
+}
+.row p {
+  align-self: center;
+  font-size: 1.1rem;
+  color: black;
+}
+.bottom-uni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.bottom-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1200px) {
+  .unique {
+    align-items: flex-start;
+  }
+  .wrapper-uni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .center-uni {
+    flex-direction: column;
+  }
+  .left-uni {
+    order: 2;
+  }
+  .right-uni .row-div {
+    display: none;
+  }
+  .right-uni p {
+    font-size: 1.3rem;
+    color: black;
+  }
+  .bottom-img {
+    border-radius: 50%;
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bottom-img:first-of-type {
+    display: none;
+  }
+  .bottom-uni {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .left-uni img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .center-uni {
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .bottom-img {
+    border-radius: 50%;
+    max-width: 80px;
+  }
+}

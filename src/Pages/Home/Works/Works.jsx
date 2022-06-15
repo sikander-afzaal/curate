@@ -9,7 +9,7 @@ function Works() {
       <h1 className="roboto title">
         How It <span className="gradient-text">Works</span>
       </h1>
-      <p className="roboto">
+      <p className="roboto sub-title">
         The future of health is in the palm of your hand. 3 simple steps to
         optimise your health & make more out of your every day.
       </p>

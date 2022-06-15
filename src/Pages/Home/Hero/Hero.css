@@ -91,7 +91,7 @@
     border-radius: 30px;
   }
 }
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 450px) {
   .left-hero h1 {
     font-size: 2rem;
   }
