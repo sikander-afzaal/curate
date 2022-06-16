@@ -16,10 +16,18 @@ function Header() {
     <div className="header">
       <img src={logo} alt="" className="logo" />
       <div className={`right-header ${header ? "header-open" : ""}`}>
-        <a href="#works" className="nav-link lato">
+        <a
+          onClick={() => setHeader(false)}
+          href="#works"
+          className="nav-link lato"
+        >
           How it works
         </a>
-        <a href="#experts" className="nav-link lato">
+        <a
+          onClick={() => setHeader(false)}
+          href="#experts"
+          className="nav-link lato"
+        >
           Our Experts
         </a>
         <button className="download-btn lato">

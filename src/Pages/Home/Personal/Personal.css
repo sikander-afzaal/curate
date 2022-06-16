@@ -1,0 +1,71 @@
+.personal-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-image: url("../../../Assets/patterns/personal-patt.svg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.personal {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding-inline: 20px;
+}
+.left-pern {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-personal .title,
+.personal .sub-title {
+  text-align: left;
+}
+.personal .sub-title {
+  max-width: 500px;
+  color: black;
+  line-height: 1.6;
+}
+.right-pern {
+  position: relative;
+}
+.right-pern .p-box:last-of-type {
+  position: absolute;
+  top: 36%;
+  left: 60%;
+}
+@media screen and (max-width: 1300px) {
+  .personal {
+    justify-content: flex-start;
+    padding-left: 3rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .personal-cont {
+    margin-top: 3rem;
+  }
+  .personal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    padding-inline: 20px;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .personal {
+    gap: 1rem;
+  }
+  .right-pern .p-box:last-of-type {
+    top: 25%;
+  }
+}

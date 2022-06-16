@@ -1,0 +1,44 @@
+.future-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 6rem;
+  position: relative;
+}
+.future {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  padding-inline: 20px;
+  width: 100%;
+  gap: 3rem;
+}
+.fut-patt {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100%;
+  object-fit: contain;
+  z-index: -1;
+}
+.future-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.future-right p {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #1f1f39fc;
+  max-width: 450px;
+  line-height: 1.6;
+}
+@media screen and (max-width: 974px) {
+  .future-cont {
+    display: none;
+  }
+}

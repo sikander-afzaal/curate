@@ -8,6 +8,8 @@ import Health from "./Health/Health";
 import Analysis from "./Analysis/Analysis";
 import Intelligence from "./Intelligence/Intelligence";
 import Team from "./Team/Team";
+import Future from "./Future/Future";
+import Perosnal from "./Personal/Perosnal";
 function Home() {
   return (
     <div className="home">
@@ -19,6 +21,8 @@ function Home() {
       <Analysis />
       <Intelligence />
       <Team />
+      <Future />
+      <Perosnal />
     </div>
   );
 }
