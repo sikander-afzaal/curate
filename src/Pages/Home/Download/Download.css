@@ -1,0 +1,78 @@
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  width: 100%;
+  max-width: 1400px;
+  background-image: url("../../../Assets/download/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin-top: 7rem;
+  padding-inline: 20px;
+}
+.left-download {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+.left-download h1 {
+  font-size: 50px;
+}
+.left-download p {
+  font-size: 20px;
+}
+.left-download img {
+  max-width: 100%;
+  margin-top: 2rem;
+  object-fit: contain;
+}
+.right-download img {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  top: -50px;
+}
+@media screen and (max-width: 1410px) {
+  .download {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .download {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 3rem 0rem;
+    border-radius: 0;
+  }
+  .left-download h1 span {
+    display: none;
+  }
+  .left-download {
+    width: 100%;
+    align-items: flex-start;
+    padding-inline: 2rem;
+  }
+  .left-download h1,
+  .left-download p {
+    text-align: left;
+  }
+  .left-download br {
+    display: none;
+  }
+  .left-download h1 {
+    font-size: 40px;
+  }
+  .left-download img {
+    margin-top: 10px;
+    align-self: center;
+  }
+  .right-download {
+    display: none;
+  }
+}

@@ -12,6 +12,7 @@ import Future from "./Future/Future";
 import Perosnal from "./Personal/Perosnal";
 import Phones from "./Phones/Phones";
 import Faq from "./Faq/Faq";
+import Download from "./Download/Download";
 function Home() {
   return (
     <div className="home">
@@ -27,6 +28,7 @@ function Home() {
       <Perosnal />
       <Phones />
       <Faq />
+      <Download />
     </div>
   );
 }
