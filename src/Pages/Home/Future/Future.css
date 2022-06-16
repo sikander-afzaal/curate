@@ -37,6 +37,39 @@
   max-width: 450px;
   line-height: 1.6;
 }
+.future-left {
+  position: relative;
+}
+.future-left .float1 {
+  top: 41%;
+  left: 6%;
+}
+.future-left .float2 {
+  top: 62%;
+  left: 7%;
+}
+.future-left .float3 {
+  top: 81%;
+  left: 29%;
+}
+.future-left .float4 {
+  top: 70%;
+  left: 65%;
+}
+.future-left .float5 {
+  top: 36%;
+  left: 66%;
+}
+@media screen and (max-width: 1200px) {
+  .future-left .float1 {
+    top: 41%;
+    left: 16%;
+  }
+  .future-left .float5 {
+    top: 40%;
+    left: 66%;
+  }
+}
 @media screen and (max-width: 974px) {
   .future-cont {
     display: none;
