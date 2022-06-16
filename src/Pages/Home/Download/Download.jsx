@@ -6,10 +6,10 @@ function Download() {
   return (
     <div className="download">
       <div className="left-download">
-        <h1>
+        <h1 className="roboto">
           Download Curate <br /> <span>Today!</span>
         </h1>
-        <p>
+        <p className="roboto">
           Download our latest version and please don’t <br /> forget to rate :)
         </p>
         <img src={btn} alt="" />

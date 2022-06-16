@@ -24,7 +24,6 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
-  flex: 0.5;
 }
 .left-personal .title,
 .personal .sub-title {
@@ -37,7 +36,7 @@
 }
 .right-pern {
   position: relative;
-  flex: 0.5;
+  flex: 0.7;
   display: flex;
   justify-content: flex-start;
   align-items: center;

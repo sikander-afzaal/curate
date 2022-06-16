@@ -21,7 +21,7 @@
 }
 .row-phone {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
@@ -29,7 +29,7 @@
   max-width: 100%;
   object-fit: contain;
 }
-@media screen and (max-width: 972px) {
+@media screen and (max-width: 1000px) {
   .phone-div {
     flex-direction: column-reverse;
   }
