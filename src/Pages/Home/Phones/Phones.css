@@ -1,0 +1,50 @@
+.phone-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(120px + 10rem);
+  width: 100%;
+  background-image: url("../../../Assets/phones/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.phone-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  max-width: 1400px;
+  width: 100%;
+  gap: 5rem;
+}
+.row-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.phone-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 972px) {
+  .phone-div {
+    flex-direction: column-reverse;
+  }
+  .row-phone {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-image: url("../../../Assets/phones/bg-phone.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .phone-cont {
+    background: none;
+    margin-top: calc(120px + 5rem);
+  }
+}

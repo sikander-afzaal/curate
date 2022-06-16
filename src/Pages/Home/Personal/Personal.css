@@ -24,6 +24,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
+  flex: 0.5;
 }
 .left-personal .title,
 .personal .sub-title {
@@ -36,21 +37,26 @@
 }
 .right-pern {
   position: relative;
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .right-pern .p-box:last-of-type {
   position: absolute;
+
   top: 36%;
-  left: 60%;
+  left: 30%;
 }
-@media screen and (max-width: 1300px) {
-  .personal {
-    justify-content: flex-start;
-    padding-left: 3rem;
-  }
-}
+
 @media screen and (max-width: 1120px) {
   .personal-cont {
     margin-top: 3rem;
+  }
+  .left-pern,
+  .right-pern {
+    flex: none;
+    width: 100%;
   }
   .personal {
     flex-direction: column;
