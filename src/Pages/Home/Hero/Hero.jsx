@@ -2,6 +2,13 @@ import React from "react";
 import "./Hero.css";
 import apple from "../../../Assets/apple.png";
 import hero from "../../../Assets/hero.png";
+import running from "../../../Assets/float/running.svg";
+import thunder from "../../../Assets/float/thunder.svg";
+import sleep from "../../../Assets/float/sleep.svg";
+import heart from "../../../Assets/float/heart.svg";
+import bar from "../../../Assets/float/bar.svg";
+import barMob from "../../../Assets/float/bar-mob.svg";
+import yoga from "../../../Assets/float/yoga.svg";
 function Hero() {
   return (
     <div className="hero-cont">
@@ -29,6 +36,59 @@ function Hero() {
           <img src={apple} alt="" />
         </div>
         <div className="right-hero">
+          <div className="float float1">
+            <div className="left-float">
+              <p className="bold-float roboto">Yoga</p>
+            </div>
+            <div className="right-float">
+              <img src={yoga} alt="" />
+            </div>
+          </div>
+          <div className="float float2">
+            <div className="left-float">
+              <p className="bold-float roboto">
+                <span className="light roboto">avg</span> 1843{" "}
+                <span className="light roboto">cal</span>
+              </p>
+            </div>
+            <div className="right-float">
+              <img src={thunder} alt="" />
+            </div>
+          </div>
+          <div className="float float3">
+            <div className="left-float">
+              <img src={sleep} alt="" />
+            </div>
+            <div className="right-float">
+              <p className="bold-float roboto">
+                <span className="light roboto">avg</span> 6.2{" "}
+                <span className="light roboto">hours</span>
+              </p>
+            </div>
+          </div>
+          <div className="float float4">
+            <div className="left-float">
+              <img src={running} alt="" />
+            </div>
+            <div className="right-float">
+              <p className="bold-float desk roboto">Activity Frequency</p>
+              <p className="bold-float mob roboto">Activity</p>
+              <p className="light roboto">Avg 3 days a week</p>
+              <img src={bar} alt="" className="desk" />
+              <img src={barMob} className="mob" alt="" />
+            </div>
+          </div>
+          <div className="float float5">
+            <div className="left-float">
+              <p className="bold-float roboto">
+                <span className="light roboto">avg</span> 64{" "}
+                <span className="light roboto">bpm</span>
+              </p>
+            </div>
+            <div className="right-float">
+              <img src={heart} alt="" />
+            </div>
+          </div>
           <img src={hero} alt="" />
         </div>
       </div>

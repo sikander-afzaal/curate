@@ -9,6 +9,9 @@
   padding-inline: 20px;
   gap: 20px;
 }
+.wrapper-uni {
+  position: relative;
+}
 .unique h2 {
   font-size: 19px;
   letter-spacing: 0.23em;
@@ -83,7 +86,69 @@
   max-width: 100%;
   object-fit: contain;
 }
+.wrapper-uni .float1 {
+  top: 63%;
+  left: 16%;
+}
+.wrapper-uni .float2 {
+  top: 95%;
+  left: 38%;
+}
+.wrapper-uni .float3 {
+  top: 75%;
+  left: 70%;
+}
+.wrapper-uni .float4 {
+  top: 74%;
+  left: 93%;
+}
+.wrapper-uni .float5 {
+  top: 62%;
+  left: 40%;
+}
+.desk-un {
+  display: block;
+}
+.mob-un {
+  display: none;
+}
+@media screen and (max-width: 1392px) {
+  .wrapper-uni .float4 {
+    left: 87%;
+  }
+  .wrapper-uni .float3 {
+    left: 69%;
+  }
+}
+@media screen and (max-width: 1266px) {
+  .wrapper-uni .float4 {
+    left: 83%;
+  }
+  .wrapper-uni .float3 {
+    left: 63%;
+  }
+}
 @media screen and (max-width: 1200px) {
+  .wrapper-uni .float1 {
+    top: 51%;
+    left: 9%;
+  }
+  .wrapper-uni .float2 {
+    top: 59%;
+    left: 48%;
+  }
+  .wrapper-uni .float3 {
+    top: 52%;
+    left: 54%;
+  }
+  .wrapper-uni .float4 {
+    top: 66%;
+    left: 19%;
+  }
+  .wrapper-uni .float5 {
+    top: 33%;
+    left: 2%;
+  }
   .unique {
     align-items: flex-start;
   }
@@ -129,9 +194,62 @@
     margin-top: 0.5rem;
   }
 }
+@media screen and (max-width: 550px) {
+  .desk-un {
+    display: none;
+  }
+  .mob-un {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
+  }
+  .wrapper-uni .float1 {
+    top: 55%;
+    left: 17%;
+  }
+  .wrapper-uni .float2 {
+    top: 64%;
+    left: 47%;
+  }
+  .wrapper-uni .float3 {
+    top: 55%;
+    left: 56%;
+  }
+  .wrapper-uni .float4 {
+    top: 71%;
+    left: 16%;
+  }
+  .wrapper-uni .float5 {
+    top: 35%;
+    left: 16%;
+  }
+}
 @media screen and (max-width: 470px) {
   .bottom-img {
     border-radius: 50%;
     max-width: 80px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper-uni .float1 {
+    top: 57%;
+    left: 5%;
+  }
+  .wrapper-uni .float2 {
+    top: 66%;
+    left: 50%;
+  }
+  .wrapper-uni .float3 {
+    top: 58%;
+    left: 55%;
+  }
+  .wrapper-uni .float4 {
+    top: 73%;
+    left: 3%;
+  }
+  .wrapper-uni .float5 {
+    top: 38%;
+    left: 5%;
   }
 }
