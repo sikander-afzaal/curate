@@ -48,6 +48,19 @@ function Works() {
           </p>
         </div>
       </div>
+      <div className="email-row">
+        <div className="email-left">
+          <h2 className="roboto">Newsletter Sign Up</h2>
+          <p className="roboto">
+            Join the personalised health and wellness revolution. We do not
+            spam. We only educate.
+          </p>
+        </div>
+        <div className="email-right">
+          <input type="email" placeholder="Email Address" />
+          <button className="submit">Submit</button>
+        </div>
+      </div>
     </div>
   );
 }

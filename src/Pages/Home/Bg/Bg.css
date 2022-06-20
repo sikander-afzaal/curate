@@ -1,0 +1,40 @@
+.bg {
+  background-image: url("../../../Assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 433px;
+  margin: 5rem 0rem;
+  gap: 2rem;
+  padding-inline: 10rem;
+}
+.bg img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.bg p {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (max-width: 1088px) {
+  .bg {
+    padding: 5rem 2rem;
+    font-weight: 400;
+    height: auto;
+  }
+  .bg p {
+    font-size: 31px;
+    line-height: 52px;
+  }
+  .bg span,
+  .bg img {
+    display: none;
+  }
+}

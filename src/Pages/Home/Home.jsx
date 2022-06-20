@@ -12,11 +12,13 @@ import Perosnal from "./Personal/Perosnal";
 import Phones from "./Phones/Phones";
 import Faq from "./Faq/Faq";
 import Download from "./Download/Download";
+import Bg from "./Bg/Bg";
 function Home() {
   return (
     <div className="home">
       <Hero />
       <Works />
+      <Bg />
       <Unique />
       <Health />
       <Analysis />
