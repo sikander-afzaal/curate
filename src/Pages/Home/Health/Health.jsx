@@ -1,18 +1,19 @@
 import React from "react";
 import "./Health.css";
 import img from "../../../Assets/hands-img.png";
-import pattern from "../../../Assets/patterns/unique-sec-pattern.svg";
-import patternMob from "../../../Assets/patterns/unique-sec-pattern-mob.png";
+import under2 from "../../../Assets/under2.svg";
 function Health() {
   return (
     <div className="health-cont">
-      <img src={pattern} className="health-patt desktop-patt" alt="" />
-      <img src={patternMob} className="health-patt mobile-patt" alt="" />
       <div className="health">
         <div className="left-health">
-          <h1 className="roboto title">
-            Your <span className="gradient-text">Unique</span> Health Offering
-          </h1>
+          <div className="title-div">
+            <h1 className="roboto title">
+              Your <span className="gradient-text">Unique</span> <br /> Health
+              Offering
+            </h1>
+            <img src={under2} alt="" className="under" />
+          </div>
           <p className="roboto sub-title">
             Personalised vitamins? We hear about them all the time. We've taken
             5 steps forward and developed a platform that allows us to analyse
@@ -22,10 +23,12 @@ function Health() {
           <ul className="list">
             <li className="roboto">Non-GMO</li>
             <li className="roboto">
-              Free from artificial colours and sweeteners
+              Free from artificial colours <br /> and sweeteners
             </li>
             <li className="roboto">BRC Certified</li>
-            <li className="roboto">Tailor-made for you and your body</li>
+            <li className="roboto">
+              Tailor-made for <br /> you and your body
+            </li>
             <li className="roboto">GMP Approved</li>
 
             <li className="roboto">UK Made</li>
