@@ -26,18 +26,8 @@
   text-decoration: none;
 }
 .download-btn {
-  background: linear-gradient(75.11deg, #00acf2 9.75%, #b0d866 90.82%);
-  background-blend-mode: multiply;
-  border-radius: 9px;
-  width: 150px;
-  height: 42px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  border: none;
-  font-size: 15px;
+  max-width: 100%;
+  object-fit: contain;
   cursor: pointer;
 }
 .mobile {
@@ -47,7 +37,7 @@
 .overlay {
   display: none;
 }
-@media screen and (max-width: 582px) {
+@media screen and (max-width: 778px) {
   .mobile {
     display: block;
     color: black;

@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRightLong,
-  faBars,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
 import logo from "../../Assets/logo.png";
+import btn from "../../Assets/apple-btn.svg";
 
 function Header() {
   const [header, setHeader] = useState(false);
@@ -28,11 +25,23 @@ function Header() {
           href="#experts"
           className="nav-link lato"
         >
+          Health Analysis
+        </a>
+        <a
+          onClick={() => setHeader(false)}
+          href="#experts"
+          className="nav-link lato"
+        >
           Our Experts
         </a>
-        <button className="download-btn lato">
-          Download App <FontAwesomeIcon icon={faArrowRightLong} />
-        </button>
+        <a
+          onClick={() => setHeader(false)}
+          href="#experts"
+          className="nav-link lato"
+        >
+          Contact
+        </a>
+        <img className="download-btn" src={btn} alt="" />
       </div>
       <FontAwesomeIcon
         onClick={() =>
