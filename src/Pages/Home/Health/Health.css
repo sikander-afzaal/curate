@@ -17,7 +17,8 @@
   gap: 1rem;
 }
 .health .title-div,
-.right-analysis .title-div {
+.right-analysis .title-div,
+.left-intelli .title-div {
   text-align: left;
   align-items: flex-start;
 }

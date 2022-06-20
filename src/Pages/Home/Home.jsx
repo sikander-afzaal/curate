@@ -13,6 +13,7 @@ import Phones from "./Phones/Phones";
 import Faq from "./Faq/Faq";
 import Download from "./Download/Download";
 import Bg from "./Bg/Bg";
+import Diff from "./Diff/Diff";
 function Home() {
   return (
     <div className="home">
@@ -23,6 +24,7 @@ function Home() {
       <Health />
       <Analysis />
       <Intelligence />
+      <Diff />
       <Team />
       <Future />
       <Perosnal />
