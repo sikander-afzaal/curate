@@ -3,7 +3,7 @@ import "./Phones.css";
 import phone1 from "../../../Assets/phones/phone (1).png";
 import phone2 from "../../../Assets/phones/phone (2).png";
 import phone3 from "../../../Assets/phones/phone (3).png";
-import apple from "../../../Assets/apple.png";
+import apple from "../../../Assets/apple-btn.svg";
 function Phones() {
   return (
     <div className="phone-cont">

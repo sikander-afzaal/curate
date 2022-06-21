@@ -1,32 +1,32 @@
 import React from "react";
 import "./Future.css";
 import img from "../../../Assets/future.png";
-import patt from "../../../Assets/patterns/future-pattern.svg";
-import running from "../../../Assets/float/running.svg";
+import img2 from "../../../Assets/future-mob.png";
+import hit from "../../../Assets/float/hit.svg";
 import thunder from "../../../Assets/float/thunder.svg";
 import sleep from "../../../Assets/float/sleep.svg";
 import heart from "../../../Assets/float/heart.svg";
-import bar from "../../../Assets/float/bar.svg";
-import barMob from "../../../Assets/float/bar-mob.svg";
-import yoga from "../../../Assets/float/yoga.svg";
+import barMob from "../../../Assets/float/activity3.svg";
+import activity from "../../../Assets/float/activity.svg";
+import under from "../../../Assets/under2.svg";
+import appleBtn from "../../../Assets/apple-btn.svg";
 function Future() {
   return (
     <div className="future-cont">
-      <img src={patt} alt="" className="fut-patt" />
       <div className="future">
         <div className="future-left">
           <div className="float float1">
             <div className="left-float">
-              <p className="bold-float roboto">Yoga</p>
+              <p className="bold-float roboto">HITT</p>
             </div>
             <div className="right-float">
-              <img src={yoga} alt="" />
+              <img src={hit} alt="" />
             </div>
           </div>
           <div className="float float2">
             <div className="left-float">
               <p className="bold-float roboto">
-                <span className="light roboto">avg</span> 1843{" "}
+                <span className="light roboto">avg</span> 861{" "}
                 <span className="light roboto">cal</span>
               </p>
             </div>
@@ -40,27 +40,24 @@ function Future() {
             </div>
             <div className="right-float">
               <p className="bold-float roboto">
-                <span className="light roboto">avg</span> 6.2{" "}
+                <span className="light roboto">avg</span> 7.2{" "}
                 <span className="light roboto">hours</span>
               </p>
             </div>
           </div>
           <div className="float float4">
             <div className="left-float">
-              <img src={running} alt="" />
+              <img src={activity} alt="" />
             </div>
             <div className="right-float">
-              <p className="bold-float desk roboto">Activity Frequency</p>
-              <p className="bold-float mob roboto">Activity</p>
-              <p className="light roboto">Avg 3 days a week</p>
-              <img src={bar} alt="" className="desk" />
-              <img src={barMob} className="mob" alt="" />
+              <p className="bold-float roboto">Activity</p>
+              <img src={barMob} alt="" />
             </div>
           </div>
           <div className="float float5">
             <div className="left-float">
               <p className="bold-float roboto">
-                <span className="light roboto">avg</span> 64{" "}
+                <span className="light roboto">avg</span> 73{" "}
                 <span className="light roboto">bpm</span>
               </p>
             </div>
@@ -68,12 +65,17 @@ function Future() {
               <img src={heart} alt="" />
             </div>
           </div>
-          <img src={img} alt="" />
+          <img src={img} alt="" className="future-img future-desk" />
+          <img src={img2} alt="" className="future-img future-mob" />
         </div>
         <div className="future-right">
-          <h1 className="roboto title">
-            The Future is <br /> <span className="gradient-text">Personal</span>
-          </h1>
+          <div className="title-div">
+            <h1 className="roboto title">
+              The Future is <br />
+              Personal
+            </h1>
+            <img src={under} className="under" alt="" />
+          </div>
           <p className="roboto">
             Curate’s mission is to be the one-stop platform for long-term health
             mapping. It empowers individuals to obtain multiple biological
@@ -81,11 +83,12 @@ function Future() {
             change over time by utilising personalised recommendations. Curate
             utilises test data, big data assets such as community data, and
             smart wearable data to formulate its personalised recommendations.
-          </p>
-          <p className="roboto">
+            <br />
+            <br />
             Consumers no longer need to visit multiple doctors or labs for
             evaluations, results in interpretation and recommendations.
           </p>
+          <img src={appleBtn} alt="" className="future-mob" />
         </div>
       </div>
     </div>

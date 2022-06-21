@@ -14,6 +14,7 @@ import Faq from "./Faq/Faq";
 import Download from "./Download/Download";
 import Bg from "./Bg/Bg";
 import Diff from "./Diff/Diff";
+import Contact from "./Contact/Contact";
 function Home() {
   return (
     <div className="home">
@@ -31,6 +32,7 @@ function Home() {
       <Phones />
       <Faq />
       <Download />
+      <Contact />
     </div>
   );
 }

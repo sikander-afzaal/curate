@@ -3,10 +3,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  background-image: url("../../../Assets/patterns/personal-patt.svg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
 }
 .personal {
@@ -50,7 +46,7 @@
 
 @media screen and (max-width: 1120px) {
   .personal-cont {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   .left-pern,
   .right-pern {
@@ -65,10 +61,13 @@
     padding-inline: 20px;
     gap: 2rem;
   }
+  .personal .sub-title {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   .personal {
-    gap: 1rem;
+    gap: 3rem;
   }
   .right-pern .p-box:last-of-type {
     top: 25%;

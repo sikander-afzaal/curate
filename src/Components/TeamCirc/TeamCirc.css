@@ -8,8 +8,9 @@
   text-align: center;
 }
 .team-circ img {
-  max-width: 100%;
+  max-width: 240px;
   object-fit: contain;
+  width: 100%;
   border-radius: 50%;
 }
 .team-circ h1 {
@@ -20,7 +21,7 @@
   color: var(--text-color);
   font-size: 1.1rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
   .team-circ {
     width: 100%;
     height: 100%;

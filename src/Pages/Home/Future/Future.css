@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 150px;
   position: relative;
 }
 .future {
@@ -60,6 +60,12 @@
   top: 36%;
   left: 66%;
 }
+.future-desk {
+  display: block;
+}
+.future-mob {
+  display: none;
+}
 @media screen and (max-width: 1200px) {
   .future-left .float1 {
     top: 41%;
@@ -71,7 +77,55 @@
   }
 }
 @media screen and (max-width: 974px) {
+  .future-left .future-img {
+    max-width: 100%;
+    object-fit: contain;
+  }
   .future-cont {
+    margin-top: 6rem;
+  }
+  .future {
+    flex-direction: column;
+  }
+  .future-right p {
+    max-width: 100%;
+  }
+  .future-right p br {
     display: none;
+  }
+}
+@media screen and (max-width: 588px) {
+  .future-cont {
+    margin-top: 5rem;
+  }
+  .future-desk {
+    display: none;
+  }
+  .future-mob {
+    display: block;
+  }
+  .future-left .float1 {
+    top: 64%;
+    left: 63%;
+  }
+  .future-left .float2 {
+    top: 28%;
+    left: 58%;
+  }
+  .future-left .float3 {
+    top: 40%;
+    left: 3%;
+  }
+  .future-left .float4 {
+    top: 81%;
+    left: 8%;
+  }
+  .future-left .float5 {
+    top: 19%;
+    left: 15%;
+  }
+  .future-right img {
+    align-self: center;
+    margin-top: 3rem;
   }
 }

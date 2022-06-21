@@ -18,7 +18,10 @@
 }
 .health .title-div,
 .right-analysis .title-div,
-.left-intelli .title-div {
+.left-intelli .title-div,
+.team .title-div,
+.future-right .title-div,
+.left-pern .title-div {
   text-align: left;
   align-items: flex-start;
 }

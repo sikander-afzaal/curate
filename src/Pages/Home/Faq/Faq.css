@@ -27,8 +27,22 @@
 .faq-grid .faq-row:last-of-type {
   border-bottom: none;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
   .faq {
-    display: none;
+    margin-top: 250px;
+    align-items: flex-start;
+  }
+  .faq h1 {
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .faq {
+    margin-top: 200px;
+    align-items: flex-start;
   }
 }

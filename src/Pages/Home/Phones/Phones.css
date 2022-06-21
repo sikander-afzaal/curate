@@ -2,12 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: calc(120px + 10rem);
+  margin-top: 300px;
   width: 100%;
-  background-image: url("../../../Assets/phones/bg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .phone-div {
   display: flex;
@@ -30,21 +26,7 @@
   object-fit: contain;
 }
 @media screen and (max-width: 1000px) {
-  .phone-div {
-    flex-direction: column-reverse;
-  }
-  .row-phone {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    background-image: url("../../../Assets/phones/bg-phone.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
   .phone-cont {
-    background: none;
-    margin-top: calc(120px + 5rem);
+    display: none;
   }
 }
