@@ -44,6 +44,11 @@
   row-gap: 3rem;
   place-items: center;
 }
+@media screen and (max-width: 850px) {
+  .text-team {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 574px) {
   .team-grid {
     grid-template-columns: 1fr 1fr;

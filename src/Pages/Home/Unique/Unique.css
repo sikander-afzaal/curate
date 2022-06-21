@@ -139,6 +139,10 @@
 @media screen and (max-width: 1200px) {
   .unique {
     align-items: flex-start;
+    padding-inline: 20px;
+  }
+  .unique .sub-title {
+    text-align: left;
   }
   .bottom-img:nth-of-type(1),
   .bottom-img:nth-of-type(7) {

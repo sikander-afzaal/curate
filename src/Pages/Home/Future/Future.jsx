@@ -88,7 +88,7 @@ function Future() {
             Consumers no longer need to visit multiple doctors or labs for
             evaluations, results in interpretation and recommendations.
           </p>
-          <img src={appleBtn} alt="" className="future-mob" />
+          <img src={appleBtn} alt="" className="future-mob apple-future" />
         </div>
       </div>
     </div>
