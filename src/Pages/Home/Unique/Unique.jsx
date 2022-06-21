@@ -150,8 +150,8 @@ function Unique() {
           <img src={bottomImg3} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg4} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg11} className="bottom-img desk-uni" alt="" />
-          <img src={bottomImg6} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg9} className="bottom-img desk-uni" alt="" />
+          <img src={bottomImg6} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg7} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg8} className="bottom-img desk-uni" alt="" />
           <img src={bottomImg10} className="bottom-img desk-uni" alt="" />

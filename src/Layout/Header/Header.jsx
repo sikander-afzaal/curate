@@ -22,7 +22,7 @@ function Header() {
         </a>
         <a
           onClick={() => setHeader(false)}
-          href="#experts"
+          href="#analysis"
           className="nav-link lato"
         >
           Health Analysis
@@ -36,7 +36,7 @@ function Header() {
         </a>
         <a
           onClick={() => setHeader(false)}
-          href="#experts"
+          href="#contact"
           className="nav-link lato"
         >
           Contact

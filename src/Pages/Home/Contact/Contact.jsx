@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <h1 className="title roboto">Contact Us</h1>
       <p className="roboto">
         Fill up the form below & our team will get back soon.

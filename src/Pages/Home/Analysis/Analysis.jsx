@@ -5,7 +5,7 @@ import apple from "../../../Assets/apple-btn.svg";
 import under from "../../../Assets/under2.svg";
 function Analysis() {
   return (
-    <div className="analysis">
+    <div id="analysis" className="analysis">
       <div className="left-analysis">
         <img src={img} className="phone" alt="" />
       </div>
@@ -24,11 +24,11 @@ function Analysis() {
           stability in your day to day lives.
         </p>
         <ul className="list">
-          <li>Personalised Vitamins</li>
-          <li>Health Data Analysis</li>
-          <li>At-Home Testing</li>
-          <li>Mental Health Programmes</li>
-          <li>Nutrition Guidance</li>
+          <li className="roboto">Personalised Vitamins</li>
+          <li className="roboto">Health Data Analysis</li>
+          <li className="roboto">At-Home Testing</li>
+          <li className="roboto">Mental Health Programmes</li>
+          <li className="roboto">Nutrition Guidance</li>
         </ul>
         <img className="apple-btn" src={apple} alt="" />
       </div>
