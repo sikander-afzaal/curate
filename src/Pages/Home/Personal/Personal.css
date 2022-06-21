@@ -73,3 +73,12 @@
     top: 25%;
   }
 }
+@media screen and (max-width: 500px) {
+  .right-pern {
+    padding-left: 50px;
+  }
+  .right-pern .p-box:last-of-type {
+    left: 36%;
+    top: 36%;
+  }
+}
