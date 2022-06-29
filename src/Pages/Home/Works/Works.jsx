@@ -8,9 +8,7 @@ function Works() {
   return (
     <div id="works" className="works">
       <div className="title-div">
-        <h1 className="roboto title">
-          How It <span className="gradient-text">Works</span>
-        </h1>
+        <h1 className="roboto title">How It Works</h1>
         <img src={under} alt="" className="underline" />
       </div>
       <p className="roboto sub-title">

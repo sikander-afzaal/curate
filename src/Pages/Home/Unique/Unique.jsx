@@ -40,9 +40,7 @@ function Unique() {
   return (
     <div className="unique">
       <h2 className="title-top roboto">Our Ethos</h2>
-      <h1 className="roboto title">
-        Everyone's Biology Is <span className="gradient-text">Unique</span>
-      </h1>
+      <h1 className="roboto title">Everyone's Biology Is Unique</h1>
       <p className="roboto sub-title">
         To get the best out of you, you've got to put the best into you. That's
         why we go the extra mile to source the most bioavailable form of each

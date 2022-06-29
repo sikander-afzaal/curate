@@ -19,9 +19,9 @@ function Hero() {
             <br /> With What's <span className="gradient-text">Inside</span>
           </h1>
           <p className="roboto desktop-hero">
-            The world's first and most personalised supplements, curated using
-            real-time health data. Curate analyses of your unique health data to
-            offer accurate, personalised vitamin solutions for health
+            The worlds first and most personalised supplements curated using
+            real-time health data. Curate analyses your health data to offer an
+            accurate, personalised and bespoke vitamin solution for health
             optimisation.
           </p>
           <p className="roboto hero-mobile">
@@ -30,10 +30,7 @@ function Hero() {
             accurate, personalised and bespoke vitamin solution for health
             optimisation.
           </p>
-          <p className="roboto desktop-hero">
-            We know that one size does not fit all and that not all deficiencies
-            are visible. We're dedicated to taking the guesswork out of it.
-          </p>
+
           <img src={apple} alt="" />
         </div>
         <div className="right-hero">

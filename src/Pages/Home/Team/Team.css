@@ -52,13 +52,7 @@
 @media screen and (max-width: 574px) {
   .team-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .team-grid .team-circ:nth-child(5),
-  .team-grid .team-circ:nth-child(6),
-  .team-grid .team-circ:nth-child(7),
-  .team-grid .team-circ:nth-child(8),
-  .team-grid .team-circ:nth-child(9) {
-    display: none;
+    grid-template-rows: none;
+    grid-auto-rows: 1fr;
   }
 }
