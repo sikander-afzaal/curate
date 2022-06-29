@@ -10,7 +10,10 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
+  overflow: visible;
+  position: relative;
 }
+
 .hero {
   display: flex;
   justify-content: space-between;
