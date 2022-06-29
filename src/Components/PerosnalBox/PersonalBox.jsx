@@ -5,7 +5,7 @@ function PersonalBox({ img, text, head }) {
     <div className="p-box">
       <img src={img} alt="" />
       <div className="bottom-card">
-        <h1 className="robotic">{head}</h1>
+        <h1 className="roboto">{head}</h1>
         <ul>
           {text.map((elem, key) => {
             return (
